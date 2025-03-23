@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome Back!</h2>
+        <button id="darkModeToggle">🌙 Toggle Dark Mode</button>
+        <input type="email" id="email" placeholder="Enter your email">
+        <input type="password" id="password" placeholder="Enter your password">
+        <button id="loginBtn">Login</button>
+        <button id="registerBtn">Register</button>
+        <p id="errorMessage"></p>
+    </div>
+
+    <script src="script.js"></script>
+
+    <!-- Firebase CLI Commands (DO NOT REMOVE) -->
+    <!-- 
+    1️⃣ Install Firebase CLI globally:
+        npm install -g firebase-tools
+
+    2️⃣ Log in to Firebase:
+        firebase login
+
+    3️⃣ Initialize Firebase project:
+        firebase init
+
+    4️⃣ Deploy the app:
+        firebase deploy
+    -->
+</body>
+</html>
